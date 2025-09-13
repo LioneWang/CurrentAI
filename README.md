@@ -1,10 +1,10 @@
 # CurrentAI
-25CurrentAI实习
-## 文件结构
-### ipynb文件
-3个ipynb在Jupyternotebook中运行，借助免费TPU算力，得到的模型上传至huggingface
-### py文件
-包含one的表示单个prompt的推理
-不包含one的表示用整个dataset的prompt进行推理
+25CurrentAI Intern
+## File Structure
+### ipynb files
+3 ipynb files run in Jupyter notebook.With the help of free TPU calculating capacity，we upload the model to huggingface.
+### py files
+Files that contain "one" stands for single prompt inference.
+Files that do not contain "one" stands for using the whole datasets' prompt for inference.
 ### Dataset
-在huggingface个人账户上，经过reddit的数据处理得到分数最高的5k个数据
+We get top 5k data by processing the data of Reddit.Then we store the data on huggingface.
